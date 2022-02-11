@@ -12,6 +12,6 @@
 
 ### What I Learned
 
-Mobile first in practice
-Flexbox in practice
-Css style with dev tools
+- Mobile first in practice
+- Flexbox in practice
+- Css style with dev tools
