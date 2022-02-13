@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    
+--soft-blue: rgba(139, 172, 218);
+--cyan: rgba(0, 255, 247);
+--very-dark-blue--main: rgba(13, 25, 43);
+--very-dark-blue--card: rgba(13, 25, 43);
+--very-dark-blue: rgba(47, 65, 91);
+--white: rgba(255, 255, 255);
+
+}
+
+body{
+    background-color: var(--very-dark-blue--main);
+}
+
+.card{
+    background-color: var(--very-dark-blue--card);
+    border-radius: 10px;
+    box-shadow: 5px 5px 90px 5px rgb(0, 0, 0, 35%);
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-between;
+    margin: 8% auto;
+    padding: 5%;
+    opacity: 0.9;
+    width: 80%;
+}
+
+/* ***** desktop ***** */
+@media screen and (min-width: 1440px){
+    .card{
+        margin: 5% auto;
+        max-width: 300px;
+        padding: 1.5%; 
+    }
+}
+
+.card__img{
+    border-radius: 5px;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.card__title{
+    color: var(--white);  
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card__title:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card__content{
+    font-weight: 300;
+    color: var(--soft-blue);
+}
+
+.card__content--modifier{
+    line-height: 1.5rem;
+}
+
+.card__ethClockBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__ethereum{
+    color: var(--cyan);
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+}
+
+.ethereum__content--modifier{
+    color: var(--cyan);
+    font-weight: 400;  
+}
+
+.card__clock{
+    color: var(--soft-blue);
+    display: flex;
+    width: 37%;
+    justify-content: space-between;
+}
+
+.card__horizontalLine{
+    border-color: var(--soft-blue);
+    margin: 0%;
+    opacity: 0.1;
+    width: 100%;
+}
+
+.card__avatar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+}
+
+.content__box{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2.5rem;
+    width: 69%;
+}
+
+.card__imgAvatar{
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    width: 12%;
+}
+
+.avatar__content--modifier{
+    color: var(--white);
+}
+
+.avatar__content--modifier:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
