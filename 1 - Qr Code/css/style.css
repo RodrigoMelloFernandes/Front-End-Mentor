@@ -29,7 +29,7 @@ body{
 }
 
 /* ----------  Desktop ----------- */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1440px){
     .card {
         height: 29rem;
         margin: 5% auto;
