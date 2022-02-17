@@ -1,0 +1,140 @@
+:root{
+
+    --bright-blue: rgba(56, 41, 224);
+    --bg-annualPlan: rgba(224, 232, 255, 0.3);
+    --dark-blue: rgba(31, 47, 86);
+    --desaturated-blue: rgba(114, 128, 167);
+    --pale-blue: rgba(224, 232, 255);
+    --very-pale-blue: rgba(245, 247, 255);
+
+}
+
+body{
+    background-color: var(--pale-blue);
+}
+
+.orderSummary{
+    background-color: var(--very-pale-blue);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 5px rgb(0, 0, 0, 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 29rem;
+    margin: 10% auto;
+}
+
+
+/* ----- desktop ----- */
+@media screen and (min-width: 1440px){
+    .orderSummary{
+        max-width: 300px;
+        margin: 5% auto;
+        height: 30rem;
+    }
+}
+
+.orderSummary__img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;   
+}
+
+.orderSummary__title{
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-top: 3%;
+}
+
+.orderSummary__content{
+    color: var(--desaturated-blue);
+    font-size: .8em;
+    font-weight: 500;
+    height: 4rem;
+    line-height: 1.4rem;
+    text-align: center;
+    width: 75%;   
+}
+
+/* ----- desktop ----- */
+@media screen and (min-width: 1440px){
+    .orderSummary__content{
+        font-size: .9em;
+        width: 80%;
+    }
+}
+
+.annualPlan{
+    align-items: center;
+    background-color: var(--bg-annualPlan);
+    border-radius: 10px;
+    display: flex;
+    height: 3.5rem;
+    justify-content: space-between;
+    width: 85%;
+}
+
+@media screen and (min-width: 1440px){
+    .annualPlan{
+        width: 80%;
+    }
+}
+
+.annualPlan__img{
+    background-color: var(--bright-blue);
+    border-radius: 100%;
+    margin-left: 3%;
+    width: 16%;
+}
+
+.annualPlan__item{
+    line-height: 1.2rem;
+    margin-right: 10%;
+}
+
+.annualPlan__title{
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.annualPlan__content{
+    color: var(--desaturated-blue);
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.annualPlan__link{
+    color: var(--bright-blue);
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.proceedToPayment{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.proceedToPayment__button{
+    color: var(--very-pale-blue);
+    background-color: var(--bright-blue);
+    border-radius: 10px; 
+    box-shadow: 5px 5px 20px 5px rgb(0, 0, 0, 5%);
+    width: 85%;
+    font-weight: 700;
+    font-size: .8em;
+    height: 2.5rem;
+}
+
+.proceedToPayment__button--modifier{
+    background-color: var(--very-pale-blue);
+    box-shadow: none;
+    color: var(--desaturated-blue);
+    margin-bottom: 5%;
+}
+
+
+
+
