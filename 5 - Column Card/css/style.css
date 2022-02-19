@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+
+    --bright-orange: rgba(227, 136, 38);
+    --dark-cyan: rgba(0, 105, 112);
+    --very-dark-cyan: rgba(0, 66, 65);
+
+    --transparent-white: rgba(255, 255, 255, 0.75);
+    --very-light-gray : rgba(242, 242, 242); 
+
+    --lexend-deca: 'Lexend Deca', sans-serif;
+    --big-shoulders-display: 'Big Shoulders Display', cursive;
+
+    /* @media screen and (min-width: 1440px) */
+
+}
+
+body{
+    font-family: var(--lexend-deca);
+    font-weight: 400;
+    background-color: var(--very-light-gray);
+}
+
