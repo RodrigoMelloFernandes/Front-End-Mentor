@@ -1,0 +1,279 @@
+/* Font 
+    font-family: 'Spartan', sans-serif;
+    Weights: 400, 500, 700
+*/
+/* @include for-desktop-only */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+}
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.socialProof {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 7.5% 5%;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .boxInfoRatedDesktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
+.socialProof .boxTestemonialsDesktop {
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .boxTestemonialsDesktop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.socialProof .info {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .info {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1%;
+    width: 35%;
+  }
+}
+.socialProof .info__title {
+  color: #502050;
+  font-weight: 700;
+  width: 85%;
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 1.75rem;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .info__title {
+    font-size: 2rem;
+    width: 85%;
+    text-align: start;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+}
+.socialProof .info__content {
+  color: #937b92;
+  font-size: 0.9rem;
+  width: 100%;
+  line-height: 1.25rem;
+  text-align: center;
+  margin-bottom: 10%;
+  font-weight: 400;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .info__content {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: start;
+    margin-bottom: 2.5%;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+}
+.socialProof .rated {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .rated {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+}
+.socialProof .rated .boxRated {
+  width: 100%;
+  background-color: rgba(238, 104, 164, 0.18);
+  line-height: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5%;
+  border-radius: 8px;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .rated .boxRated {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2.5%;
+    width: 22rem;
+    padding: 2.5%;
+  }
+  .socialProof .rated .boxRated:first-child {
+    align-self: start;
+  }
+  .socialProof .rated .boxRated:nth-child(2) {
+    align-self: center;
+  }
+  .socialProof .rated .boxRated:last-child {
+    align-self: flex-end;
+  }
+}
+.socialProof .rated .boxRated__content {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #502050;
+  width: 45%;
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .rated .boxRated__content {
+    width: 46%;
+    margin-bottom: 0;
+  }
+}
+.socialProof .rated .boxRated .starIco {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+  margin: 2.5% 0;
+}
+.socialProof .rated .boxRated .starIco__ico {
+  width: 12.5%;
+}
+.socialProof .testemonials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .testemonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+  }
+}
+.socialProof .testemonials .boxTestemonials {
+  border-radius: 5px;
+  background-color: #502050;
+  padding: 6%;
+  margin-bottom: 5%;
+  height: 40vh;
+}
+.socialProof .testemonials .boxTestemonials:first-child {
+  margin-bottom: 5%;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .testemonials .boxTestemonials:first-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .testemonials .boxTestemonials {
+    width: 32%;
+    margin-bottom: 0;
+    height: 35vh;
+    padding: 3%;
+  }
+  .socialProof .testemonials .boxTestemonials:nth-child(2) {
+    align-self: center;
+  }
+  .socialProof .testemonials .boxTestemonials:last-child {
+    align-self: flex-end;
+  }
+}
+.socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified {
+    margin-bottom: 12%;
+  }
+}
+.socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified__img {
+  margin-right: 5%;
+  border-radius: 100%;
+  width: 12%;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified__img {
+    width: 18%;
+  }
+}
+.socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified .boxTestemonials__title-verified {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified .boxTestemonials__title-verified .boxTestemonials__title-verified___title {
+  font-size: 0.75rem;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 7%;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified .boxTestemonials__title-verified .boxTestemonials__title-verified___title {
+    font-size: 0.8rem;
+  }
+}
+.socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified .boxTestemonials__title-verified .boxTestemonials__title-verified___verified {
+  font-size: 0.65rem;
+  color: #ee68a4;
+  opacity: 0.5;
+  font-weight: 700;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .testemonials .boxTestemonials .boxTestemonials__img-title-verified .boxTestemonials__title-verified .boxTestemonials__title-verified___verified {
+    font-size: 0.73rem;
+  }
+}
+.socialProof .testemonials__content {
+  line-height: 1.25rem;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 100;
+  opacity: 0.7;
+}
+@media screen and (min-width: 1440px) {
+  .socialProof .testemonials__content {
+    font-size: 0.63rem;
+    line-height: 1.2rem;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

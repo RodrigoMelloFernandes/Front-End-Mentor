@@ -1,0 +1,240 @@
+.socialProof{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 7.5% 5%;
+    width: 100%;
+    @include for-desktop-only{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+    }
+
+    .boxInfoRatedDesktop{
+        @include for-desktop-only{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 5%;            
+            width: 100%;
+        }
+    }
+
+    .boxTestemonialsDesktop{
+        width: 100%;
+        @include for-desktop-only{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    
+    .info{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        @include for-desktop-only{
+            align-items: flex-start; 
+            display: flex;
+            margin-top: 1%;
+            width: 35%;
+        }
+
+        &__title{
+            color: $very-dark-magenta;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 5%;
+            text-align: center;
+            width: 85%;
+            @include for-desktop-only{
+                font-size: 2rem;
+                margin-bottom: 3%;
+                margin-top: 1%;
+                text-align: start;
+                width: 85%;
+            }           
+        }
+
+        &__content{
+            color: $dark-grayish-magenta;
+            font-size: .9rem;
+            font-weight: 400;
+            line-height: 1.25rem;
+            margin-bottom: 10%;
+            text-align: center;
+            width: 100%;
+            @include for-desktop-only{
+                font-size: .8rem;
+                line-height: 1.4rem;
+                margin-bottom: 2.5%;
+                text-align: start;
+                width: 100%;
+            }
+        }
+    }
+
+    .rated{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        @include for-desktop-only{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+        }
+        .boxRated{
+            align-items: center;
+            background-color: $soft-pink-opac;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2rem;             
+            margin-bottom: 2.5%;
+            width: 100%;
+            @include for-desktop-only{
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 2.5%;
+                padding: 2.5%;
+                width: 22rem;                
+                &:first-child {
+                    align-self: start;
+                }
+                &:nth-child(2) {
+                    align-self: center;
+                }
+                &:last-child {
+                    align-self: flex-end;
+                }
+            }
+
+            &__content{
+                color: $very-dark-magenta;
+                font-size: .6rem; 
+                font-weight: 700;
+                margin-bottom: 2.5%;
+                text-align: center;
+                width: 45%;            
+                @include for-desktop-only {
+                    margin-bottom: 0;
+                    width: 46%;
+                }
+            }
+
+            .starIco{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: 2.5% 0;
+                width: 40%;
+                &__ico{
+                    width: 12.5%;
+                }
+            }
+        }
+    }
+
+    .testemonials{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        @include for-desktop-only{
+            display: flex;
+            flex-direction: row;
+            height: 40vh;
+            justify-content: space-between;
+            width: 100%; 
+        }
+        
+        .boxTestemonials{            
+            background-color: $very-dark-magenta;
+            border-radius: 5px;
+            height: 40vh;
+            margin-bottom: 5%;
+            padding: 6%;      
+            &:first-child{
+                margin-bottom: 5%;
+                @include for-desktop-only {
+                    margin-bottom: 0;
+                }
+            }
+            
+            @include for-desktop-only {
+                height: 35vh;
+                margin-bottom: 0;
+                padding: 3%;
+                width: 32%;
+                &:nth-child(2) {
+                    align-self: center;
+                }
+                &:last-child {
+                    align-self: flex-end;
+                }
+            }
+            
+            .boxTestemonials__img-title-verified{
+                align-items: center;
+                display: flex;
+                margin-bottom: 5%;
+                margin-top: 5%;
+                @include for-desktop-only{
+                    margin-bottom: 12%;
+                }
+
+                &__img{
+                    margin-right: 5%;
+                    border-radius: 100%;
+                    width: 12%;
+                    @include for-desktop-only{
+                        width: 18%;                       
+                    } 
+                }
+                
+                .boxTestemonials__title-verified{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    
+                    .boxTestemonials__title-verified___title{
+                        color: $white;
+                        font-size: .75rem;
+                        font-weight: 400;
+                        margin-bottom: 7%;
+                        @include for-desktop-only{
+                            font-size: .8rem;
+                        }
+                    }
+                    
+                    .boxTestemonials__title-verified___verified{
+                        color: $soft-pink;
+                        font-size: .65rem;
+                        font-weight: 700;
+                        opacity: .5;
+                        @include for-desktop-only{
+                            font-size: .73rem;
+                        }
+                    }
+                }  
+            }
+        }
+
+        &__content{
+            color: $white;
+            font-size: .9rem;
+            font-weight: 100;
+            line-height: 1.25rem;
+            opacity: .7;
+            @include for-desktop-only{
+                font-size: .63rem;
+                line-height: 1.2rem;
+                width: 100%;
+            }
+        }
+    }   
+}
