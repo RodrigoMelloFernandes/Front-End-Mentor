@@ -1,22 +1,15 @@
-/* Font 
-    font-family: 'Spartan', sans-serif;
-    Weights: 400, 500, 700
-*/
-
-$very-dark-magenta: hsl(300, 43%, 22%);
-$soft-pink: hsl(333, 80%, 67%);
 $dark-grayish-magenta: hsl(303, 10%, 53%);
 $light-grayish-magenta: hsl(300, 24%, 96%);
-$white: hsl(0, 0%, 100%);
 $soft-pink-opac: rgba(238, 104, 164, .18);
+$soft-pink: hsl(333, 80%, 67%);
+$very-dark-magenta: hsl(300, 43%, 22%);
+$white: hsl(0, 0%, 100%);
 
 @mixin for-desktop-only {
     @media screen and (min-width: 1440px){
         @content;
     }
 }
-
-/* @include for-desktop-only */
 
 *{
     box-sizing: border-box;
