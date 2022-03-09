@@ -1,4 +1,5 @@
-![FinalProjectScreenSchot](https://user-images.githubusercontent.com/88214247/154760502-c30ea2c7-be33-4d09-b833-f91e5347462e.jpeg)
+![MobileViewScreenshot](https://user-images.githubusercontent.com/88214247/157427239-b91c6f50-c023-4b34-beba-c81362b9e0bc.jpeg)
+
 
 
 ## My Process
