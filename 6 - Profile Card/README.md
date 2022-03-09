@@ -1,4 +1,5 @@
-![FinalProjectScreenshot](https://user-images.githubusercontent.com/88214247/156374622-24fca32a-1795-42cd-89eb-9340544eeedb.jpeg)
+![FinalProjectScreenShot](https://user-images.githubusercontent.com/88214247/157428602-0b4b9c0b-0cae-411f-b933-37330c6d8057.jpeg)
+
 
 ## My Process
 
@@ -6,12 +7,12 @@
 
 - Flexbox
 - Mobile First
-- Css Bem
+- Css Atomic Design
 - Css Variables
-- Sass
+
 
 ### What I Learned
 
-- Flexbox in practice
-- Variables Css
-- Sass in practice
+- Flexbox 
+- Variables 
+- Position
