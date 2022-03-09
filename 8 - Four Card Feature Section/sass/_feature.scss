@@ -1,0 +1,140 @@
+.feature{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5%;
+    padding: 6%;   
+    width: 100%;
+    
+    @include for-desktop-only{
+        display: flex;
+        flex-direction: column;      
+    }
+
+    &__subtitle{
+        @include width-marginBottom(100%, 2.5%);    
+        @include fontSize-fontWeight(1.49rem,200);
+        text-align: center;
+       
+        @include for-desktop-only{           
+            font-size: 3rem;          
+        }
+    }
+
+    &__title{
+        @include width-marginBottom(100%, 5%);       
+        @include fontSize-fontWeight(1.49rem,600);
+        text-align: center;
+        
+        @include for-desktop-only{
+            font-size: 3rem;
+        }       
+    }
+
+    &__description{ 
+        @include width-marginBottom(100% , 15%);       
+        @include fontSize-fontWeight(.96rem,400);
+        opacity: .5;
+        text-align: center;
+        
+        @include for-desktop-only{
+            @include width-marginBottom(55% , 5%); 
+            font-size: 1.3rem;
+            line-height: 1.9rem;           
+        }
+    }
+
+    .fourcard{
+        display: flex;
+        flex-direction: column;
+        
+        @include for-desktop-only {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            height: 80vh;
+            justify-content: space-between;
+            width: 85%;
+        }    
+               
+
+        &__box{
+            border-radius: 5px;
+            box-shadow: 5px 5px 50px 5px rgba(0,0,0, 12%);
+            flex-direction: column;   
+            display: flex;
+            margin-bottom: 5%;
+            padding: 5%;
+            
+            &:first-child{
+                border-top: 3px solid $verde;
+            }
+           
+            &:last-child{
+                border-top: 3px solid $azul;
+            }         
+            @include for-desktop-only {
+                height: 34vh;
+                padding: 2.5%;
+                width: 31%;
+            }
+        } 
+
+        &__container{
+            @include for-desktop-only {
+                @include display-justify(flex, space-between);
+                align-items: center;
+                flex-direction: column;
+                height: 72.5vh;
+                width: 30%;
+            }
+        }
+
+        &__container .fourcard__box {
+            &:first-child {
+                border-top: 3px solid $red;
+            }
+            &:last-child {
+                border-top: 3px solid $laranja;
+            }
+
+            @include for-desktop-only {
+                height: 35vh;
+                padding: 8%;
+                width: 105%;
+            }
+        }
+        
+        &__title{
+            @include fontSize-fontWeight(1rem,600);
+            margin-bottom: 2.5%;
+            
+            @include for-desktop-only{
+                margin-bottom: 3%;
+            }
+        }
+
+        &__content{   
+            @include width-marginBottom(82% , 5%);   
+            @include fontSize-fontWeight(.79rem,400);
+
+            line-height: 1.2rem;
+            opacity: .5;
+            
+            @include for-desktop-only{
+                width: 100%;
+            }
+        }
+        
+        &__img{
+            @include width-marginBottom(15% , 2.5%); 
+            align-self: flex-end;
+            
+            @include for-desktop-only{
+                width: 20%;
+                margin-top: 5%;
+            }
+        }
+    }
+}
+

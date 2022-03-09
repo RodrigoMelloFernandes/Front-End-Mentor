@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.feature {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5%;
+  padding: 6%;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .feature {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.feature__subtitle {
+  width: 100%;
+  margin-bottom: 2.5%;
+  font-size: 1.49rem;
+  font-weight: 1.49rem;
+  text-align: center;
+}
+@media screen and (min-width: 1440px) {
+  .feature__subtitle {
+    font-size: 3rem;
+  }
+}
+.feature__title {
+  width: 100%;
+  margin-bottom: 5%;
+  font-size: 1.49rem;
+  font-weight: 1.49rem;
+  text-align: center;
+}
+@media screen and (min-width: 1440px) {
+  .feature__title {
+    font-size: 3rem;
+  }
+}
+.feature__description {
+  width: 100%;
+  margin-bottom: 15%;
+  font-size: 0.96rem;
+  font-weight: 0.96rem;
+  opacity: 0.5;
+  text-align: center;
+}
+@media screen and (min-width: 1440px) {
+  .feature__description {
+    width: 55%;
+    margin-bottom: 5%;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+  }
+}
+.feature .fourcard {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1440px) {
+  .feature .fourcard {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    justify-content: space-between;
+    width: 85%;
+  }
+}
+.feature .fourcard__box {
+  border-radius: 5px;
+  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.12);
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 5%;
+  padding: 5%;
+}
+.feature .fourcard__box:first-child {
+  border-top: 3px solid #22f7a3;
+}
+.feature .fourcard__box:last-child {
+  border-top: 3px solid #0000fa;
+}
+@media screen and (min-width: 1440px) {
+  .feature .fourcard__box {
+    height: 34vh;
+    padding: 2.5%;
+    width: 31%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .feature .fourcard__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 72.5vh;
+    width: 30%;
+  }
+}
+.feature .fourcard__container .fourcard__box:first-child {
+  border-top: 3px solid #ea5353;
+}
+.feature .fourcard__container .fourcard__box:last-child {
+  border-top: 3px solid orange;
+}
+@media screen and (min-width: 1440px) {
+  .feature .fourcard__container .fourcard__box {
+    height: 35vh;
+    padding: 8%;
+    width: 105%;
+  }
+}
+.feature .fourcard__title {
+  font-size: 1rem;
+  font-weight: 1rem;
+  margin-bottom: 2.5%;
+}
+@media screen and (min-width: 1440px) {
+  .feature .fourcard__title {
+    margin-bottom: 3%;
+  }
+}
+.feature .fourcard__content {
+  width: 82%;
+  margin-bottom: 5%;
+  font-size: 0.79rem;
+  font-weight: 0.79rem;
+  line-height: 1.2rem;
+  opacity: 0.5;
+}
+@media screen and (min-width: 1440px) {
+  .feature .fourcard__content {
+    width: 100%;
+  }
+}
+.feature .fourcard__img {
+  width: 15%;
+  margin-bottom: 2.5%;
+  align-self: flex-end;
+}
+@media screen and (min-width: 1440px) {
+  .feature .fourcard__img {
+    width: 20%;
+    margin-top: 5%;
+  }
+}
+
+/*
+
+@include for-desktop-only
+
+## Typography
+### Body Copy
+- Font size: 15px
+### Fonts
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+
+*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+$red: rgba(234, 83, 83);
+$mostarda: rgba(180, 62%, 55%);
+$verde: rgba(34, 97%, 64%);
+$amarelo: rgba(212, 86%, 64%);
+$laranja: orange;
+
+$vermelho-rosado: rgba(234, 12%, 34%);
+$rosa-pink: rgba(229, 6%, 66%);
+$azul: rgba(0, 0%, 98%);
+
+@mixin for-desktop-only{
+    @media screen and (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin width-marginBottom($width, $margin-bottom){
+    width: $width;
+    margin-bottom: $margin-bottom;
+}
+
+@mixin display-justify($display-flex,$justify-content){
+    display: $display-flex;
+    justify-content: $justify-content;
+}
+
+@mixin fontSize-fontWeight($font-size,$font-weight){
+    font-size: $font-size;
+    font-weight: $font-size;
+}
+
+
+@import 'feature';
+
+
+/*
+
+@include for-desktop-only
+
+## Typography
+### Body Copy
+- Font size: 15px
+### Fonts
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
+
+*/
