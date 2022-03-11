@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+$cyan: rgba(41, 179, 176);
+$cyan-opac: rgba(41, 179, 176, .8);
+$right-yellow: rgba(192, 223, 52);
+$light-gray: rgba(229, 239, 245);
+$grayish-blue: rgba(152, 166, 189);
+$white: rgba(255, 255, 255);
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: $light-gray;  
+}
+
+@mixin for-desktop-only{
+    @media screen and (width: 1440px){
+        @content;
+    }
+}
+
+@mixin display-flexDirection-padding($display, $flex-direction, $padding){
+    display: $display;
+    flex-direction: $flex-direction;
+    padding: $padding;
+}
+
+@mixin color-fontSize-fontWeight($color, $font-size, $font-weight){
+    color: $color;
+    font-size:  $font-size;
+    font-weight: $font-weight;
+}
+
+@import 'component';

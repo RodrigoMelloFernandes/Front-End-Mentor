@@ -1,0 +1,146 @@
+.singlePrice{
+    @include display-flexDirection-padding(flex, column, 5%); 
+    margin: 10% auto; 
+
+    @include for-desktop-only{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10% auto;
+        width: 50%;
+    }
+    
+    .card-join{
+        @include display-flexDirection-padding(flex, column, 5%);  
+        background-color: $white;
+        border-radius: 5px;
+
+        @include for-desktop-only{
+            border-radius: 5px;
+        }
+
+        &__title{
+            @include color-fontSize-fontWeight($cyan, 1.4rem, 700);
+            margin-top: 5%;
+            margin-bottom: 5%;
+
+            @include for-desktop-only{
+                margin-top: 1.5%;
+            }
+        }
+    
+        &__subtitle{
+            color: $right-yellow;
+            font-weight: 700;
+            line-height: 1.2rem;
+            margin-bottom: 5%;
+        }
+    
+        &__description{
+            line-height: 1.4rem;
+            margin-bottom: 2.5%;
+            opacity: .5;
+            @include for-desktop-only{
+                font-size: .9rem;
+            }
+        }
+    }
+
+    .desktop-only{
+        @include for-desktop-only{
+            display: flex;
+            height: 26vh;
+        }
+    }
+
+    .card-subscription{
+        @include display-flexDirection-padding(flex, column, 5%);  
+        background-color: $cyan;
+
+        @include for-desktop-only{
+            border-radius: 0px 0px 0px 5px;
+            width: 50%;
+        }
+
+        &__title{
+            color: $light-gray;
+            margin-bottom: 5%;
+            font-weight: 700;
+            @include for-desktop-only{
+                margin-top: 5%;
+            }           
+        }
+
+        &__contentPrice{
+            @include color-fontSize-fontWeight($light-gray, 1.5rem, 700);
+            margin-bottom: 5%;
+            @include for-desktop-only{
+                margin-bottom: 8%;
+            }
+        }
+        
+        &__content{
+            color: $light-gray;
+            font-weight: 400;
+            margin-bottom: 5%;
+            @include for-desktop-only{
+                font-size: .9rem;
+                margin-bottom: 14%;
+            }     
+        }
+
+        span{
+            font-size: 1rem;
+            font-weight: 400;
+            opacity: .5;
+        }
+
+        &__button{
+            background-color: $right-yellow;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.1);
+            height: 5vh;
+            margin-bottom: 2.5%;          
+            width: 95%;
+        }
+
+        &__button___link{
+            color: $light-gray;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    }
+
+    .card-whyUs{
+        background-color: $cyan-opac;
+        border-radius: 5px;
+        padding: 5%;
+
+        @include for-desktop-only{
+            border-radius: 0px 0px 5px 0px;
+            width: 50%;
+        }
+
+        &__title{
+            color: $light-gray;
+            font-weight: 700;
+            margin-top: 2.5%;
+            margin-bottom: 5%;
+        }
+
+        &__content{
+            @include color-fontSize-fontWeight($light-gray, .9rem, 400);
+            margin-bottom: 1%;
+            opacity: .8;
+            width: 80%;
+
+            @include for-desktop-only{
+                line-height: 1rem;
+            }
+
+            &:last-child{
+                margin-bottom: 2.5%;
+            }     
+        }
+    }
+}
