@@ -1,0 +1,162 @@
+.huddle{
+    @include display-flexDirection-width(flex, column, 100%);
+    padding: 10%;
+
+    @include for-desktop-only{
+        padding: 5%;
+    }
+
+    &__logo{
+        margin-bottom: 18%;
+        width: 41%;
+        
+        @include for-desktop-only{
+            height: 5vh;
+            margin-bottom: 5%; 
+            padding-right: 85%;  
+            width: 100%;
+        }
+    }
+
+    .desktop-only{
+        @include for-desktop-only{
+            @include display-flexDirection-width(flex, row, 100%); 
+        }
+
+    .desktop-only-info{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            
+            @include for-desktop-only{
+                @include display-flexDirection-width(flex, column, 40%);
+                margin-left: 2%;
+                margin-top: 4%;
+            }
+        }
+    }
+
+    &__mockups{
+        width: 100%;
+        margin-bottom: 22%;
+        
+        @include for-desktop-only{
+            margin-bottom: 0;
+            width: 65%;
+        }   
+    }
+
+    &__title{
+        @include color-fontSize-fontWeight($white,1.6rem, 600);
+        align-self: center;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 2.5rem;
+        margin-bottom: 5%;
+        text-align: center;
+        width: 100%;
+        
+        @include for-desktop-only{
+            align-self: flex-start;
+            font-size: 2.2rem;
+            line-height: 3.2rem;
+            margin-bottom: 8%;
+            text-align: start;
+            width: 97%;
+        }           
+    }
+
+    &__content{
+        @include color-fontSize-fontWeight($white, .9rem, 400);
+        align-self: center;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5rem;
+        text-align: center;
+        margin-bottom: 8%;
+        width: 99%;
+        
+        @include for-desktop-only{
+            align-self: flex-start;
+            font-size: .96rem;
+            margin-bottom: 4%;
+            opacity: .7;
+            text-align: start;
+            width: 100%;
+        }
+    }
+
+    &__button{
+        border: none;
+        border-radius: 20px;
+        box-shadow: .5px .5px 5px 1.5px rgba(0, 0, 0, .3);
+        height: 4.5vh;
+        margin-bottom: 10%;
+        width: 65%;
+        
+        @include for-desktop-only{
+            align-self: flex-start;
+            height: 5vh;
+            width: 40%;
+            &:hover{
+                background-color: $soft-magenta;
+                cursor: pointer;
+            }
+            
+            &:hover &___link{
+                color: $white;
+            }
+        }    
+    }
+
+    &__button___link{
+        @include color-fontSize-fontWeight($violet, .8rem, 400);
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        
+        @include for-desktop-only{
+            font-size: 1rem;
+        }    
+    }
+}
+
+.socialMedia{
+    @include display-flexDirection-width(flex, row, 30%);
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+    @include for-desktop-only{
+        justify-content: flex-end;
+        width: 88%;      
+    }
+
+    &__borderBox{
+        align-items: center;
+        border: 1px solid $white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        height: 2rem;
+        width: 2rem;
+        
+        @include for-desktop-only{
+            margin-left: 1%;
+            &:hover{
+                border: 3px solid $soft-magenta;
+                cursor: pointer;               
+            }
+
+            &:hover &___link{
+                color: $soft-magenta;
+            }
+        }      
+    }
+    &__borderBox___link{
+        color: $white;
+        font-size: 1rem;
+    }  
+}
+
+
+
+
+
