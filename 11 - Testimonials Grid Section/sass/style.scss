@@ -1,0 +1,39 @@
+/* 
+
+Weights : 500, 600
+
+@include desktop-only
+    
+
+*/
+
+$moderate-violet: rgba(117, 65, 200);
+$very-dark-grayish-blue: rgba(72, 85, 106);
+$very-dark-blackish-blue: rgba(25, 33, 46);
+$white: rgba(255, 255, 255);
+
+$light-gray: rgba(207, 207, 207);
+$light-grayish-blue: rgba(236, 242, 248);
+
+*{
+    box-sizing: border-box;
+    font-size: 13px;
+    color: $white;
+}
+
+@mixin desktop-only{
+    @media screen and (min-width: 1440px){
+        @content;
+    }
+}
+
+body{
+    background-color: $light-gray;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    @include desktop-only{
+        background-color: $light-grayish-blue;
+    }
+}
+
+
+@import 'component';

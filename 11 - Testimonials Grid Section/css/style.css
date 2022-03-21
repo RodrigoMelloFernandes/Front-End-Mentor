@@ -1,0 +1,178 @@
+/* 
+
+Weights : 500, 600
+
+@include desktop-only
+
+
+*/
+* {
+  box-sizing: border-box;
+  font-size: 13px;
+  color: white;
+}
+
+body {
+  background-color: #cfcfcf;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: #ecf2f8;
+  }
+}
+
+.testemonials {
+  padding: 5%;
+  /* Change Color Modifier */
+  /* Large Card Modifiers */
+}
+@media screen and (min-width: 1440px) {
+  .testemonials {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin: 10% auto;
+    width: 88%;
+  }
+}
+.testemonials .testemonialsCard {
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 5%;
+  padding: 10%;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .testemonialsCard {
+    justify-content: space-between;
+    margin: 0;
+    padding: 3vh;
+    width: 100%;
+  }
+}
+.testemonials .testemonialsCard:first-child {
+  background-color: #7541c8;
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-size: 35%;
+  background-position: 87% top;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .testemonialsCard:first-child {
+    background-size: 18%;
+    background-position: 74% top;
+    grid-column: 1/3;
+    grid-row: 1/1;
+  }
+}
+.testemonials .testemonialsCard:nth-child(2) {
+  background-color: #48556a;
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .testemonialsCard:nth-child(2) {
+    grid-column: 3/4;
+    grid-row: 1/1;
+  }
+}
+.testemonials .testemonialsCard:nth-child(3) {
+  background-color: white;
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .testemonialsCard:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+}
+.testemonials .testemonialsCard:nth-child(4) {
+  background-color: #19212e;
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .testemonialsCard:nth-child(4) {
+    grid-column: 2/4;
+    grid-row: 2/2;
+  }
+}
+.testemonials .testemonialsCard:last-child {
+  background-color: white;
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .testemonialsCard:last-child {
+    grid-column: 4/5;
+    grid-row: 1/3;
+  }
+}
+.testemonials .testemonialsCard__box {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8%;
+}
+.testemonials .testemonialsCard__img {
+  border-radius: 50%;
+  width: 12%;
+}
+.testemonials .testemonialsCard__verified {
+  display: flex;
+  flex-direction: column;
+  line-height: 1rem;
+  margin-left: 5%;
+}
+.testemonials .testemonialsCard__title {
+  font-size: 0.9rem;
+}
+.testemonials .testemonialsCard__subtitle {
+  font-size: 0.74rem;
+  opacity: 0.7;
+}
+.testemonials .testemonialsCard__topic {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin-bottom: 2.5%;
+  width: 92%;
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .testemonialsCard__topic {
+    margin-bottom: 5%;
+  }
+}
+.testemonials .testemonialsCard__comment {
+  font-size: 0.86rem;
+  line-height: 1.2rem;
+  opacity: 0.7;
+  width: 98%;
+}
+.testemonials .colorChange {
+  color: #19212e;
+  opacity: 1;
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .largeCardImg {
+    width: 6%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .largeCardTitle {
+    margin-left: 2.5%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .largeCardBox {
+    margin-bottom: 2.5%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .testemonials .largeCardComment {
+    width: 100%;
+  }
+}
+.testemonials .topicJeanette {
+  margin-bottom: 15%;
+  width: 80%;
+}
+.testemonials .white {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */
