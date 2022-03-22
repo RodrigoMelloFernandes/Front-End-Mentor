@@ -1,4 +1,5 @@
-![FinalProjectMobileScreenShot](https://user-images.githubusercontent.com/88214247/158574875-a41f1e4e-7bcf-4f72-b59b-9c0987d0ac5c.jpeg)
+![FinalDesktopScreenShot](https://user-images.githubusercontent.com/88214247/159269069-632bf777-a49b-43fa-97c2-be83794ce9e3.png)
+
 
 ## My Process
 
@@ -8,9 +9,10 @@
 - Mobile First
 - BEM
 - Sass
+- Grid
 
 ### What I Learned
 
 - Flexbox 
 - Sass Mixins
-- New Hover Technique
+- Grid in Practice
