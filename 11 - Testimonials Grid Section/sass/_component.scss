@@ -25,7 +25,7 @@
             width: 100%;
         }
 
-        &:first-child{
+        &:first-child { 
             background-color: $moderate-violet;  
             background-image: url('../images/bg-pattern-quotation.svg');
             background-size: 35%;
@@ -33,8 +33,8 @@
             background-repeat: no-repeat;
             
             @include desktop-only{
-                background-size: 18%;
-                background-position: 74% top;
+                background-size: 20%;
+                background-position: 75% top;
                 grid-column: 1 / 3;
                 grid-row: 1 / 1;
             }   
@@ -54,7 +54,12 @@
             background-color: $white;
             @include desktop-only{
                 grid-column: 1 / 2;
-                grid-row: 2 / 2;     
+                grid-row: 2 / 2;  
+                & .testemonialsCard__title, .testemonialsCard__subtitle, .testemonialsCard__topic, .testemonialsCard__comment{
+                    color: $black;    
+                }
+                
+
             }
 
         }
@@ -71,31 +76,42 @@
             background-color: $white;
             @include desktop-only{
                 grid-column: 4 / 5;
-                grid-row: 1 / 3;    
+                grid-row: 1 / 3;
+                & .testemonialsCard__title, .testemonialsCard__subtitle, .testemonialsCard__topic, .testemonialsCard__comment{
+                    color: $black;                  
+                }    
             }
         }
         
         &__box{
             align-items: center;
             display: flex;
+            
             flex-direction: row;
             margin-bottom: 8%;
+            @include desktop-only{
+                margin-bottom: 4%;
+            }
         }
     
         &__img{
             border-radius: 50%;
-            width: 12%;
+            width: 30px;
+            height: 30px;
         }
     
         &__verified{
             display: flex;
             flex-direction: column;
             line-height: 1rem;
-            margin-left: 5%;          
+            margin-left: 5%;  
+            @include desktop-only{
+                margin-left: 2.5%;
+            }        
         }
 
         &__title{
-            font-size: .9rem;      
+            font-size: .9rem;     
         }
 
         &__subtitle{
@@ -121,46 +137,5 @@
         }
     }
     /* Change Color Modifier */
-
-    .colorChange{
-        color: $very-dark-blackish-blue;
-        opacity: 1;
-    }
-
-    /* Large Card Modifiers */
-
-    .largeCardImg{
-        @include desktop-only{
-            width: 6%;
-        }
-    }
-
-    .largeCardTitle{
-        @include desktop-only{
-            margin-left: 2.5%;
-        }
-    }
-
-    .largeCardBox{
-        @include desktop-only{
-            margin-bottom: 2.5%;
-        }
-    }
-
-    .largeCardComment{
-        @include desktop-only{
-            width: 100%;
-        }
-    }
-
-    .topicJeanette{
-        margin-bottom: 15%;
-        width: 80%;
-    }
-
-    .white{
-        border: 2px solid rgba(255,255,255,.5);            
-    }
 }
-
 
