@@ -24,7 +24,6 @@ body {
 
 .testemonials {
   padding: 5%;
-  /* Change Color Modifier */
 }
 @media screen and (min-width: 1440px) {
   .testemonials {
@@ -158,6 +157,11 @@ body {
   line-height: 1.2rem;
   opacity: 0.7;
   width: 98%;
+}
+.testemonials .topicJeanette {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
