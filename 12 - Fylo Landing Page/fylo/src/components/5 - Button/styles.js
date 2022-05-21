@@ -1,5 +1,9 @@
 import styled from "styled-components"
 
-export const Button = styled.button`
+export const startedButton = styled.button`
+
+`
+
+export const startedLink = styled.a`
 
 `
