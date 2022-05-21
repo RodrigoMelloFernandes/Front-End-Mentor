@@ -11,6 +11,9 @@ export const headerImg = styled.img`
 export const testemonialImg = styled.img`
 
 `
+export const iconArrow = styled.img`
+
+`
 
 export const signKyleImg = styled.img`
 
