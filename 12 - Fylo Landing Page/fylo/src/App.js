@@ -3,9 +3,9 @@ import {GlobalStyle} from './components/GlobalStyle'
 function App() {
   return (
     <>
-      <GlobalStyle>
+      <GlobalStyle/>
           <p>teste</p>
-      </GlobalStyle>
+      
     </>
   );
 }
