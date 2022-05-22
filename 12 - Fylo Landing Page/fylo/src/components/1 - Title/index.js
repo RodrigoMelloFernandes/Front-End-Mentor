@@ -7,6 +7,10 @@ function Title (props) {
         return <titleTestemonial title={props.title}>{props.title}</titleTestemonial>
     }
 
+    else if (props.titleTestemonialCard){
+        return <titleTestemonial title={props.title}>{props.title}</titleTestemonial>
+    }
+
     else if (props.titleSignUp){
         return <titleSignUp title={props.title}>{props.title}</titleSignUp>
     }

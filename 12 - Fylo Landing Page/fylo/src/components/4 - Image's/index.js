@@ -15,6 +15,10 @@ function Img (props) {
         return <iconArrow src={props.src} alt={props.alt}/>
     }
 
+    else if (props.iconQuotes){
+        return <iconQuotes src={props.src} alt={props.alt}/>
+    }
+
     else if (props.signKyleImg){
         return <signKyleImg src={props.src} alt={props.alt}/>
     }
