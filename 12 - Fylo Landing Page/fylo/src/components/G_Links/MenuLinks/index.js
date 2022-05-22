@@ -2,7 +2,10 @@ import {StyledMenuLinks} from './styles'
 
 function MenuLinks (props) {
     return(
-        <StyledMenuLinks href="#">{props.textLink}</StyledMenuLinks>
+        <StyledMenuLinks
+            href="#" textLink={props.textLink}
+        >{props.textLink}
+        </StyledMenuLinks>
     )
 }
 

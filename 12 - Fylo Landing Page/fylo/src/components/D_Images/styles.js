@@ -5,7 +5,7 @@ export const StyledfyloLogo = styled.img`
 `
 
 export const StyledheaderImg = styled.img`
-
+    width: 90%;
 `
 
 export const StyledtestemonialImg = styled.img`

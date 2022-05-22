@@ -11,3 +11,7 @@ export const StyledsubtitleSignUp = styled.p`
 export const StyledsubtitleTestemonial = styled.p`
 
 `
+
+export const StyledsubtitleTestemonialCard = styled(StyledsubtitleTestemonial)`
+
+`

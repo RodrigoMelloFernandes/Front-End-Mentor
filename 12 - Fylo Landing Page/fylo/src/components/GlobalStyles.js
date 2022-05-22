@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1;
     width: 100vw;
     height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 5%;
     
     }
