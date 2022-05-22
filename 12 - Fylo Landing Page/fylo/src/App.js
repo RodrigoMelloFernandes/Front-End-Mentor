@@ -1,8 +1,9 @@
 import { GlobalStyle } from './components/GlobalStyles';
-import Header from './Page/1 - Header';
-import SignUpSection from './Page/2 - SignUpSection';
-import TestemonialSection from './Page/3 - TestemonialSection';
-import Footer from './Page/4 - Footer';
+
+import Header from './Page/A_Header';
+import Title from './components/B_Title';
+
+
 
 
 
@@ -11,11 +12,10 @@ function App() {
         <>
             <GlobalStyle />
                 <Header/>
-                <SignUpSection/>
-                <TestemonialSection/>
-                <Footer/>
-                
-                
+                <Title title="TitleHeader" titleHeader/>
+                <Title title="TitleHeader" titleTestemonial/>
+                <Title title="TitleHeader" titleSignUp/>
+                   
 
         </>
     );

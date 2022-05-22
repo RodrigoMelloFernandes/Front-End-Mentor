@@ -1,5 +1,5 @@
 import styled from "styled-components"
 
-export const FooterLinks = styled.a`
+export const StyledFooterLinks = styled.a`
 
 `

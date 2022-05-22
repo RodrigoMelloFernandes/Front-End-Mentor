@@ -1,3 +1,5 @@
+import {StyledContainer} from './styles'
+
 function Container (props) {
     
 }
