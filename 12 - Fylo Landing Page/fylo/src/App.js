@@ -1,4 +1,4 @@
-import { GlobalStyle } from './components/GlobalStyles';
+import { GlobalStyle } from './components/Z_GlobalStyle/GlobalStyles';
 
 import Header from './Page/A_Header';
 
