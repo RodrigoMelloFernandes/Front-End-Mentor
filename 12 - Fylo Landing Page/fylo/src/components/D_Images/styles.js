@@ -15,6 +15,10 @@ export const StylediconArrow = styled.img`
 
 `
 
+export const StylediconQuotes = styled.img`
+
+`
+
 export const StyledsignKyleImg = styled.img`
 
 `

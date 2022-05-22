@@ -1,10 +1,10 @@
-import {StyledfyloLogo, StyledheaderImg, StyledtestemonialImg, StylediconArrow, StylediconQuotes, StyledsignKyleImg, StylediconPhone, StylediconEmail} from './styles'
+import {StyledfyloLogo , StyledheaderImg, StyledtestemonialImg, StylediconArrow, StylediconQuotes, StyledsignKyleImg, StylediconPhone, StylediconEmail} from './styles'
+
 
 function Img (props) {
-    if(props.fyloLogo){
+    if(props.fyloLogoImg){
         return <StyledfyloLogo src={props.src} alt={props.alt}/>
     }
-    
     else if (props.headerImg){
         return <StyledheaderImg src={props.src} alt={props.alt}/>
     }
@@ -32,6 +32,9 @@ function Img (props) {
     else if (props.iconEmail){
         return <StylediconEmail src={props.src} alt={props.alt}/>
     }
+
+    
+
 }
 
 export default Img;

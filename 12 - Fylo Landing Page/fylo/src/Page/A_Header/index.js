@@ -1,14 +1,16 @@
 import { HeaderContainer } from "./styles";
 
-import Title from "../../components/B_Title";
+import Img from '../../components/D_Images'
+
+import fyloLogoImg from '../../images/logo.svg'
 
 
 
 function Header (props) {
     return (
             <HeaderContainer>
-                <Title title="Oi" TitleHeader/>
-
+                <Img src={fyloLogoImg} alt="Logo" fyloLogoImg/>
+                <p>teste</p>
             </HeaderContainer>
 
             
