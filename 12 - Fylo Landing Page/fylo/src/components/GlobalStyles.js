@@ -32,6 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100vw;
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
+    padding: 5%;
     
     }
     ol, ul {
