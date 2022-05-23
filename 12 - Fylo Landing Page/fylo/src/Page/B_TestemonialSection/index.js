@@ -5,6 +5,8 @@ import Title from '../../components/B_Title'
 import Subtitle from "../../components/C_Subtitle"
 import TestemonialLinks from '../../components/G_Links/TestemonialLinks'
 import Br from '../../components/M_Br'
+import {StyledTestemonialCard} from '../../components/A_Containers/styles'
+
 
 import curveMobile from '../../images/bg-curve-mobile.svg'
 import iconArrow from '../../images/icon-arrow.svg'
@@ -48,31 +50,31 @@ function TestemonialSection (props) {
 
             <Br/>
 
-            <Img 
-                src={iconQuotes} 
-                alt="iconQuotes" 
-                iconQuotes
-            />  
-
-            <Subtitle 
-                content="Fylo has improved our team productivity by an order of magnitude. Since 
-                making the switch our team has become a well-oiled collaboration machine.
-                "   
-                subtitleTestemonialCard
-            />
-
-            <Img 
-                src={signKyleImg} 
-                alt="signKyleImg" 
-                signKyleImg
-            />
-
-            <Title title="Kyle Burton" titleTestemonialCard/>
-
-            <Subtitle 
-                content="Founder &amp; CEO, Huddle"  
-                subtitleTestemonialCard
-            />
+            
+                <StyledTestemonialCard>
+                    <Img
+                        src={iconQuotes}
+                        alt="iconQuotes"
+                        iconQuotes
+                    />
+                    <Subtitle
+                        content="Fylo has improved our team productivity by an order of magnitude. Since
+                        making the switch our team has become a well-oiled collaboration machine.
+                        "
+                        subtitleTestemonialCard
+                    />
+                    <Img
+                        src={signKyleImg}
+                        alt="signKyleImg"
+                        signKyleImg
+                    />
+                    <Title title="Kyle Burton" titleTestemonialCard/>
+                    <Subtitle
+                        content="Founder &amp; CEO, Huddle"
+                        subtitleTestemonialCard
+                    />
+                </StyledTestemonialCard>
+            
 
 
         </TestemonialSectionContainer>
