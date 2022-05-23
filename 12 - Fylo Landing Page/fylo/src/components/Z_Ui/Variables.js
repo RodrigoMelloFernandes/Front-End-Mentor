@@ -28,3 +28,17 @@ export const lightGray = "hsl(0, 0%, 75%)";
 // Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 // font-family: 'Open Sans', sans-serif;
 // Weights: 400  
+
+
+
+// Phone: +1-543-123-4567
+// example@fylo.com
+
+// About Us
+// Jobs
+// Press
+// Blog
+
+// Contact Us
+// Terms
+// Privacy

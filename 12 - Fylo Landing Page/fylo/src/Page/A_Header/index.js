@@ -43,7 +43,7 @@ function Header (props) {
                         />
 
                         <Button 
-                            button__textLink="Get   Stated" 
+                            button__textLink="Get Stated" 
                             startedButton
                         />
 

@@ -1,4 +1,4 @@
-import {StyledfyloLogo , StyledheaderImg, StyledtestemonialImg, StylediconArrow, StylediconQuotes, StyledsignKyleImg, StylediconPhone, StylediconEmail} from './styles'
+import {StyledfyloLogo , StyledheaderImg, StyledtestemonialImg, StylediconArrow, StylediconQuotes, StyledsignKyleImg, StylediconPhone, StylediconEmail, StyledCurveMobile, StyledCurveDesktop} from './styles'
 
 
 function Img (props) {
@@ -31,6 +31,14 @@ function Img (props) {
 
     else if (props.iconEmail){
         return <StylediconEmail src={props.src} alt={props.alt}/>
+    }
+
+    else if (props.curveDesktop){
+        return <StyledCurveDesktop src={props.src} alt={props.alt}/>
+    }
+
+    else if (props.curveMobile){
+        return <StyledCurveMobile src={props.src} alt={props.alt}/>
     }
 
     

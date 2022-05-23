@@ -30,3 +30,13 @@ export const StylediconPhone = styled.img`
 export const StylediconEmail = styled.img`
 
 `
+
+export const StyledCurveMobile = styled.img`
+
+`
+
+export const StyledCurveDesktop = styled.img`
+
+`
+
+
