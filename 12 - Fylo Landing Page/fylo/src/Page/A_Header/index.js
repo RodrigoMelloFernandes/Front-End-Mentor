@@ -7,6 +7,8 @@ import Subtitle from "../../components/C_Subtitle";
 import Input from '../../components/F_Input'
 import Button from "../../components/E_Button";
 
+
+
 import fyloLogoImg from '../../images/logo.svg'
 import headerImg from '../../images/illustration-1.svg'
 
@@ -46,6 +48,10 @@ function Header (props) {
                             button__textLink="Get Stated" 
                             startedButton
                         />
+
+                       
+                        
+
 
 
                         

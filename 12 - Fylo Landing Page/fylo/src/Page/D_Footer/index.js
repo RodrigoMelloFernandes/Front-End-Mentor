@@ -2,6 +2,9 @@ import {FooterContainer} from './styles'
 import Img from '../../components/D_Images'
 import Subtitle from "../../components/C_Subtitle";
 import FooterLinks from '../../components/G_Links/FooterLinks'
+import FacebookIcon from '../../components/G_Links/SocialMediaLinks/Facebook'
+import InstagramIcon from '../../components/G_Links/SocialMediaLinks/Instagram';
+import TwitterIcon from '../../components/G_Links/SocialMediaLinks/Twitter'
 
 import fyloLogoImg from '../../images/logo.svg'
 import iconPhone from '../../images/icon-phone.svg'
@@ -46,7 +49,9 @@ function Footer (props) {
             <FooterLinks textLink="Terms"/>
             <FooterLinks textLink="Privacy"/>
 
-            
+            <FacebookIcon/>
+            <InstagramIcon/>
+            <TwitterIcon/>
 
              
         </FooterContainer>
