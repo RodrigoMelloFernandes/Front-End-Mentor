@@ -1,4 +1,4 @@
-import {StyledtitleHeader, StyledtitleTestemonial, StyledtitleSignUp} from './styles'
+import {StyledtitleHeader, StyledtitleTestemonial, StyledtitleSignUp,} from './styles'
 
 function Title (props) {
     if(props.titleHeader){

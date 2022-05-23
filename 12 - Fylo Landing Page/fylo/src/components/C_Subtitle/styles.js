@@ -15,3 +15,7 @@ export const StyledsubtitleTestemonial = styled.p`
 export const StyledsubtitleTestemonialCard = styled(StyledsubtitleTestemonial)`
 
 `
+
+export const StyledsubtitleFooter = styled.p`
+
+`

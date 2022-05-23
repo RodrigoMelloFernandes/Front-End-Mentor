@@ -24,7 +24,7 @@ export const StyledsignKyleImg = styled.img`
 `
 
 export const StylediconPhone = styled.img`
-
+    
 `
 
 export const StylediconEmail = styled.img`

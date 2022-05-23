@@ -1,4 +1,4 @@
-import {StyledsubtitleHeader,StyledsubtitleTestemonial,StyledsubtitleTestemonialCard,StyledsubtitleSignUp} from './styles'
+import {StyledsubtitleHeader,StyledsubtitleTestemonial,StyledsubtitleTestemonialCard,StyledsubtitleSignUp,StyledsubtitleFooter} from './styles'
 
 function Subtitle (props) {
     if(props.subtitleHeader){
@@ -15,6 +15,10 @@ function Subtitle (props) {
 
     else if (props.subtitleSignUp){
         return <StyledsubtitleSignUp content={props.content}>{props.content}</StyledsubtitleSignUp>
+    }
+
+    else if (props.subtitleFooter){
+        return <StyledsubtitleFooter content={props.content}>{props.content}</StyledsubtitleFooter>
     }
 }
 
