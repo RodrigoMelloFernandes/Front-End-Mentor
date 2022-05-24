@@ -1,27 +1,25 @@
-import {StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard} from './styles'
+import {StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer} from './styles'
 
 function Container (props) {
     if(props.MenuNavContainer) {
-        return <StyledMenuNavContainer/> 
+        return <StyledMenuNavContainer></StyledMenuNavContainer> 
     }
 
     else if (props.HeaderInfosContainer) {
-        return <StyledHeaderInfosContainer/>
+        return <StyledHeaderInfosContainer></StyledHeaderInfosContainer>
     }
 
     else if (props.headerDesktopContainer) {
-        return <StyledHeaderDesktopContainer/>
+        return <StyledHeaderDesktopContainer></StyledHeaderDesktopContainer>
     }
 
     else if (props.TestemonialCard) {
-        return <StyledTestemonialCard/>
+        return <StyledTestemonialCard></StyledTestemonialCard>
     }
 
-    
-
-
-
-
+    else if (props.TestemonialDesktopContainer) {
+        return <StyledTestemonialDesktopContainer>{props.children}</StyledTestemonialDesktopContainer>
+    }
 }
 
 export default Container;

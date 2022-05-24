@@ -19,4 +19,6 @@ export const StyledHeaderDesktopContainer = styled.div`
 export const StyledTestemonialCard = styled.div`
 
 `
-
+export const StyledTestemonialDesktopContainer = styled.div`
+    background-color: red;
+`
