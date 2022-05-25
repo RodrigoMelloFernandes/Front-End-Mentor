@@ -26,3 +26,7 @@ export const StyledTestemonialDesktopContainer = styled.div`
 export const StyledSignUpDesktop = styled.div`
 
 `
+
+export const StyledFooterDesktop = styled.div`
+
+`

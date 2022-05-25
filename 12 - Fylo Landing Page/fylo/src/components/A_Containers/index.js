@@ -1,4 +1,4 @@
-import {StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop} from './styles'
+import {StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop,StyledFooterDesktop} from './styles'
 
 function Container (props) {
     if(props.MenuNavContainer) {
@@ -34,6 +34,12 @@ function Container (props) {
         return <StyledSignUpDesktop>
             {props.children}
         </StyledSignUpDesktop>
+    }
+
+    else if(props.footerDesktop) {
+        return <StyledFooterDesktop>
+            {props.children}
+        </StyledFooterDesktop>
     }
 }
 
