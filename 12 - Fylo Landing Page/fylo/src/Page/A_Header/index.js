@@ -6,9 +6,7 @@ import Title from '../../components/B_Title'
 import Subtitle from "../../components/C_Subtitle";
 import Input from '../../components/F_Input'
 import Button from "../../components/E_Button";
-import { StyledMenuNavContainer , StyledHeaderInfosContainer, StyledHeaderDesktopContainer} from "../../components/A_Containers/styles";
-
-
+import Container from "../../components/A_Containers";
 
 import fyloLogoImg from '../../images/logo.svg'
 import headerImg from '../../images/illustration-1.svg'
@@ -19,21 +17,21 @@ function Header (props) {
     return (
             <HeaderContainer>
                         
-                            <StyledMenuNavContainer>
+                            <Container MenuNavContainer>
                                 <Img
                                     src={fyloLogoImg} alt="Logo"
                                     fyloLogoImg
                                 />
                                 <Nav/>
-                            </StyledMenuNavContainer>
+                            </Container>
                         
 
-                        <StyledHeaderDesktopContainer>
+                        <Container headerDesktopContainer>
                             <Img
                                 src={headerImg} alt="headerImg"
                                 headerImg
                             />
-                            <StyledHeaderInfosContainer>
+                            <Container HeaderInfosContainer>
                                 <Title
                                     title="All your files in one secure location, accessible anywhere."
                                     titleHeader
@@ -51,8 +49,8 @@ function Header (props) {
                                     button__textLink="Get Stated"
                                     startedButton
                                 />
-                            </StyledHeaderInfosContainer>
-                        </StyledHeaderDesktopContainer>
+                            </Container>
+                        </Container>
 
                        
                         

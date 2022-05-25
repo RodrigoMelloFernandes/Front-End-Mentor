@@ -8,7 +8,6 @@ import Br from '../../components/M_Br'
 import {StyledTestemonialCard} from '../../components/A_Containers/styles'
 import Container from '../../components/A_Containers'
 
-
 import curveMobile from '../../images/bg-curve-mobile.svg'
 import iconArrow from '../../images/icon-arrow.svg'
 import iconQuotes from '../../images/icon-quotes.svg'

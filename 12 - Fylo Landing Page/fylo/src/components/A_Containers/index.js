@@ -1,24 +1,39 @@
-import {StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer} from './styles'
+import {StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop} from './styles'
 
 function Container (props) {
     if(props.MenuNavContainer) {
-        return <StyledMenuNavContainer></StyledMenuNavContainer> 
+        return <StyledMenuNavContainer>
+            {props.children}
+        </StyledMenuNavContainer> 
     }
 
     else if (props.HeaderInfosContainer) {
-        return <StyledHeaderInfosContainer></StyledHeaderInfosContainer>
+        return <StyledHeaderInfosContainer>
+            {props.children}
+        </StyledHeaderInfosContainer>
     }
 
     else if (props.headerDesktopContainer) {
-        return <StyledHeaderDesktopContainer></StyledHeaderDesktopContainer>
+        return <StyledHeaderDesktopContainer>
+            {props.children}
+        </StyledHeaderDesktopContainer>
     }
 
     else if (props.TestemonialCard) {
-        return <StyledTestemonialCard></StyledTestemonialCard>
+        return <StyledTestemonialCard>
+            {props.children}
+        </StyledTestemonialCard>
     }
 
     else if (props.TestemonialDesktopContainer) {
-        return <StyledTestemonialDesktopContainer>{props.children}</StyledTestemonialDesktopContainer>
+        return <StyledTestemonialDesktopContainer>{props.children}
+        </StyledTestemonialDesktopContainer>
+    }
+
+    else if (props.SignUpDesktop) {
+        return <StyledSignUpDesktop>
+            {props.children}
+        </StyledSignUpDesktop>
     }
 }
 
