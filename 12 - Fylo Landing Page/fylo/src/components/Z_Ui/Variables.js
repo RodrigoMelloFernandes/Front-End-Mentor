@@ -2,7 +2,7 @@
 
 // Primary
 
-export const veryDarkBlue = "hsl(243, 87%, 12%)";
+export const veryDarkBlue = "#070439";
 // azul escuro
 export const desaturatedBlue = "hsl(238, 22%, 44%)";
 // azul escuro mais claro

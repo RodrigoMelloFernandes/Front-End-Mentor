@@ -1,10 +1,16 @@
-import {StyledfyloLogo , StyledheaderImg, StyledtestemonialImg, StylediconArrow, StylediconQuotes, StyledsignKyleImg, StylediconPhone, StylediconEmail, StyledCurveMobile, StyledCurveDesktop} from './styles'
+import {StyledfyloLogo , StyledheaderImg, StyledtestemonialImg, StylediconArrow, StylediconQuotes, StyledsignKyleImg, StylediconPhone, StylediconEmail, StyledCurveMobile, StyledCurveDesktop,StyledfyloLogoFooter} from './styles'
 
 
 function Img (props) {
     if(props.fyloLogoImg){
         return <StyledfyloLogo src={props.src} alt={props.alt}/>
     }
+
+    if(props.fyloLogoImgFooter){
+        return <StyledfyloLogoFooter src={props.src} alt={props.alt}/>
+    }
+
+
     else if (props.headerImg){
         return <StyledheaderImg src={props.src} alt={props.alt}/>
     }

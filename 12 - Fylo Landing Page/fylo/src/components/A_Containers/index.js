@@ -1,6 +1,9 @@
 import {
     StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop,StyledFooterDesktop, StyledNavContainer,StyledTestemonialLinksContainer,StyledTestemonialLinksContainerBox,StyledTestemonialCardInsideContainer,StyledTestemonialCardInsideContainerBox,
-    StyledSignUpDesktopBox} from './styles'
+    StyledSignUpDesktopBox,StyledfooterInsideInfoContainer,StyledfooterInsideLinksContainer,
+    StyledfooterSocialMediaContainer
+
+} from './styles'
 
 function Container (props) {
     if(props.MenuNavContainer) {
@@ -54,7 +57,6 @@ function Container (props) {
     }
 
 
-
     else if (props.TestemonialDesktopContainer) {
         return <StyledTestemonialDesktopContainer>{props.children}
         </StyledTestemonialDesktopContainer>
@@ -77,6 +79,23 @@ function Container (props) {
             {props.children}
         </StyledFooterDesktop>
     }
+
+    else if(props.footerInsideInfoContainer) {
+        return <StyledfooterInsideInfoContainer>
+            {props.children}
+        </StyledfooterInsideInfoContainer>
+    }
+
+    else if (props.footerInsideLinksContainer) {
+        return <StyledfooterInsideLinksContainer>{props.children}</StyledfooterInsideLinksContainer>
+    }
+
+    else if (props.footerSocialMediaContainer) {
+        return <StyledfooterSocialMediaContainer>{props.children}</StyledfooterSocialMediaContainer>
+    }
+
+
 }
 
 export default Container;
+

@@ -28,5 +28,6 @@ export const StyledsubtitleSignUp = styled.p`
 `
 
 export const StyledsubtitleFooter = styled.p`
-
+    margin-left: 5%;
+    color: ${white};
 `

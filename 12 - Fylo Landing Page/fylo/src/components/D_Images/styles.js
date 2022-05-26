@@ -5,6 +5,11 @@ export const StyledfyloLogo = styled.img`
     
 `
 
+export const StyledfyloLogoFooter = styled(StyledfyloLogo)`
+    width: 50%;
+    margin-bottom: 10%;
+`
+
 export const StyledheaderImg = styled.img`
     width: 100%;
     margin-bottom: 10%;

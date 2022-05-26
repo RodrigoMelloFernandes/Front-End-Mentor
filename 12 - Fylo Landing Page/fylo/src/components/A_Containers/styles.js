@@ -72,8 +72,34 @@ export const StyledSignUpDesktopBox = styled.div`
     flex-direction: column;
     align-items:center;
     width: 100%;
+    
 `
 
 export const StyledFooterDesktop = styled.div`
 
+`
+
+export const StyledfooterInsideInfoContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5%;
+    &:last-child{
+        margin-bottom: 20%;
+    }
+`
+
+export const StyledfooterInsideLinksContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+`
+
+export const StyledfooterSocialMediaContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 39%;
+    margin: 0 auto;  
 `
