@@ -9,8 +9,15 @@ export const StyledtitleHeader = styled.h2`
     
 `
 
-export const StyledtitleTestemonial = styled.h2`
-    font-size: 2rem;
+export const StyledtitleTestemonial = styled(StyledtitleHeader)`
+    font-size: 1rem;
+    margin-bottom: 10%;
+`
+
+export const StyledtitleTestemonialCard = styled(StyledtitleHeader)`
+    margin-bottom: 0;
+    height: 4vh;
+    font-size: .7rem;
 `
 
 export const StyledtitleSignUp = styled.h2`

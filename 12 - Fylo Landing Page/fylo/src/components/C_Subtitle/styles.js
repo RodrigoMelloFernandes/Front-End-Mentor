@@ -7,15 +7,17 @@ export const StyledsubtitleHeader = styled.p`
     margin-bottom: 10%;
 `
 
-export const StyledsubtitleSignUp = styled.p`
 
-`
-
-export const StyledsubtitleTestemonial = styled.p`
-
+export const StyledsubtitleTestemonial = styled(StyledsubtitleHeader)`
+    text-align: start;
+    font-size: .82rem;
+    margin-bottom: 5%;
 `
 
 export const StyledsubtitleTestemonialCard = styled(StyledsubtitleTestemonial)`
+    font-size: .63rem;
+`
+export const StyledsubtitleSignUp = styled.p`
 
 `
 

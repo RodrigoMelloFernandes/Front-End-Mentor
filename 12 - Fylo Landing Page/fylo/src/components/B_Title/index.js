@@ -1,4 +1,4 @@
-import {StyledtitleHeader, StyledtitleTestemonial, StyledtitleSignUp,} from './styles'
+import {StyledtitleHeader, StyledtitleTestemonial, StyledtitleSignUp,StyledtitleTestemonialCard} from './styles'
 
 function Title (props) {
     if(props.titleHeader){
@@ -10,7 +10,7 @@ function Title (props) {
     }
 
     else if (props.titleTestemonialCard){
-        return <StyledtitleTestemonial title={props.title}>{props.title}</StyledtitleTestemonial>
+        return <StyledtitleTestemonialCard title={props.title}>{props.title}</StyledtitleTestemonialCard>
     }
 
     else if (props.titleSignUp){

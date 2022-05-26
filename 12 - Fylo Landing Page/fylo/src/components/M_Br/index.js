@@ -1,9 +1,9 @@
-import {StyledBr} from './styles'
+import {StyledHr} from './styles'
 
-function Br (props) {
-    return(
-        <StyledBr/>
+function Hr () {
+    return (
+        <StyledHr></StyledHr>
     )
 }
 
-export default Br;
+export default Hr;

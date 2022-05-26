@@ -11,18 +11,20 @@ export const StyledheaderImg = styled.img`
 `
 
 export const StyledtestemonialImg = styled.img`
-
+    width: 100%;
+    margin-bottom: 10%;
 `
 export const StylediconArrow = styled.img`
 
 `
 
 export const StylediconQuotes = styled.img`
-
+    margin-bottom: 1.5%;
 `
 
 export const StyledsignKyleImg = styled.img`
-
+    width: 15%;
+    border-radius: 50%;
 `
 
 export const StylediconPhone = styled.img`
