@@ -1,11 +1,13 @@
 import styled from "styled-components"
 
 export const StyledfyloLogo = styled.img`
+    width: 25%;
     
 `
 
 export const StyledheaderImg = styled.img`
-    width: 90%;
+    width: 100%;
+    margin-bottom: 10%;
 `
 
 export const StyledtestemonialImg = styled.img`

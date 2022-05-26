@@ -1,10 +1,16 @@
-import {StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop,StyledFooterDesktop} from './styles'
+import {StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop,StyledFooterDesktop, StyledNavContainer} from './styles'
 
 function Container (props) {
     if(props.MenuNavContainer) {
         return <StyledMenuNavContainer>
             {props.children}
         </StyledMenuNavContainer> 
+    }
+
+    else if (props.NavContainer) {
+        return <StyledNavContainer>
+            {props.children}
+        </StyledNavContainer>
     }
 
     else if (props.HeaderInfosContainer) {

@@ -6,6 +6,12 @@ export const StyledContainer = styled.div`
 
 export const StyledMenuNavContainer = styled.div`
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20%;
+`
+
+export const StyledNavContainer = styled.div`
+    width: 60%;
 `
 
 export const StyledHeaderInfosContainer = styled.div`
