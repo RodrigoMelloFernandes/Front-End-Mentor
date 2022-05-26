@@ -33,7 +33,7 @@ function Header(props) {
                             family, and co-workers."
             subtitleHeader
           />
-          <Input placeholder="Enter Your Email..." />
+          <Input placeholder="Enter Your Email..." StyledInput />
           <Button button__textLink="Get Stated" startedButton />
         </Container>
       </Container>

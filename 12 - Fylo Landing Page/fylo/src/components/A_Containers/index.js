@@ -1,5 +1,6 @@
 import {
-    StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop,StyledFooterDesktop, StyledNavContainer,StyledTestemonialLinksContainer,StyledTestemonialLinksContainerBox,StyledTestemonialCardInsideContainer,StyledTestemonialCardInsideContainerBox} from './styles'
+    StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop,StyledFooterDesktop, StyledNavContainer,StyledTestemonialLinksContainer,StyledTestemonialLinksContainerBox,StyledTestemonialCardInsideContainer,StyledTestemonialCardInsideContainerBox,
+    StyledSignUpDesktopBox} from './styles'
 
 function Container (props) {
     if(props.MenuNavContainer) {
@@ -63,6 +64,12 @@ function Container (props) {
         return <StyledSignUpDesktop>
             {props.children}
         </StyledSignUpDesktop>
+    }
+
+    else if (props.SignUpDesktopBox) {
+        return <StyledSignUpDesktopBox>
+            {props.children}
+        </StyledSignUpDesktopBox>
     }
 
     else if(props.footerDesktop) {

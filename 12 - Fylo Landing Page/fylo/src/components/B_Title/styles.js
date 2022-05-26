@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { white } from "../Z_Ui/Variables"
 
 export const StyledtitleHeader = styled.h2`
     font-size: 1.53rem;
@@ -21,5 +22,9 @@ export const StyledtitleTestemonialCard = styled(StyledtitleHeader)`
 `
 
 export const StyledtitleSignUp = styled.h2`
-    font-size: 3rem;
+    font-size: 1.43rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5%;
+    color: ${white}
 `

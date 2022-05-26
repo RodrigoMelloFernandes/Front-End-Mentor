@@ -9,4 +9,9 @@ export const StyledInput = styled.input`
     border-radius: 3px;
     border: 1px solid ${black};
     margin-bottom: 2.5%;
+    
+`
+
+export const StyledInputSign = styled(StyledInput)`
+    width: 80%;
 `

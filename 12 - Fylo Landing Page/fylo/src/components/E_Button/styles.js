@@ -7,6 +7,10 @@ export const StyledstartedButton = styled.button`
     background-color: ${brightBlue};
     border-radius: 2.5px;
     margin-bottom: 20%;
+    &:nth-child(2){
+        width: 80%;
+        
+    }
 `
 
 export const StyledstartedLink = styled.a`

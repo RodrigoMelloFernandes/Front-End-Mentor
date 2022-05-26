@@ -12,7 +12,7 @@ export const StyledMenuNavContainer = styled.div`
 `
 
 export const StyledNavContainer = styled.div`
-    width: 60%;
+    width: 62%;
 `
 
 export const StyledHeaderInfosContainer = styled.div`
@@ -62,7 +62,16 @@ export const StyledTestemonialDesktopContainer = styled.div`
 `
 
 export const StyledSignUpDesktop = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
 
+export const StyledSignUpDesktopBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
 `
 
 export const StyledFooterDesktop = styled.div`
