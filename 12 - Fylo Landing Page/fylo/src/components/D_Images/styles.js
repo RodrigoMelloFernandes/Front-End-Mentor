@@ -9,21 +9,18 @@ export const StyledfyloLogo = styled.img`
     
 `
 
-export const StyledfyloLogoFooter = styled(StyledfyloLogo)`
-    width: 50%;
-    margin-bottom: 10%;
-    filter: opacity(0.5) drop-shadow(0 0 0 ${white}); 
-    
-`
 
 export const StyledheaderImg = styled.img`
     width: 100%;
     margin-bottom: 10%;
+    @media screen and (min-width: 1440px){
+        width: 40%;
+    }
 `
 
 export const StyledtestemonialImg = styled.img`
-    width: 100%;
-    margin-bottom: 10%;
+width: 100%;
+margin-bottom: 10%;
 `
 export const StylediconArrow = styled.img`
 
@@ -54,4 +51,10 @@ export const StyledCurveDesktop = styled.img`
 
 `
 
+export const StyledfyloLogoFooter = styled(StyledfyloLogo)`
+    width: 50%;
+    margin-bottom: 10%;
+    filter: opacity(0.5) drop-shadow(0 0 0 ${white}); 
+    
+`
 

@@ -6,6 +6,13 @@ export const StyledsubtitleHeader = styled.p`
     line-height: 1.3rem;
     text-align: center;
     margin-bottom: 10%;
+    @media screen and (min-width: 1440px){
+        margin-bottom: 2.5%;
+        text-align: start;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+
+    }
 `
 
 

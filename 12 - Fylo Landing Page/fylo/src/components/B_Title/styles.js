@@ -7,6 +7,12 @@ export const StyledtitleHeader = styled.h2`
     font-weight: 700;
     text-align: center;
     margin-bottom: 5%;
+    @media screen and (min-width: 1440px){
+        text-align: start;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        width: 65%;
+    }
     
 `
 

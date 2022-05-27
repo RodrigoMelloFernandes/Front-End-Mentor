@@ -33,8 +33,10 @@ function Header(props) {
                             family, and co-workers."
             subtitleHeader
           />
-          <Input placeholder="Enter Your Email..." StyledInput />
-          <Button button__textLink="Get Stated" startedButton />
+          <Container HeaderDesktopBox>
+            <Input placeholder="Enter Your Email..." StyledInput />
+            <Button button__textLink="Get Started" startedButton />
+          </Container>
         </Container>
       </Container>
     </HeaderContainer>

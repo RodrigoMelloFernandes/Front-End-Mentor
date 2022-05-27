@@ -8,8 +8,15 @@ export const StyledstartedButton = styled.button`
     border-radius: 2.5px;
     margin-bottom: 20%;
     &:nth-child(2){
-        width: 80%;
-        
+        width: 80%;  
+    }
+
+    @media screen and (min-width: 1440px){
+        margin-left: 2.5%;
+        margin-bottom: 0%;
+        &:nth-child(2){
+            width: 35%;
+        }
     }
 `
 

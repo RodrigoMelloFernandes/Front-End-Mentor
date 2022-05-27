@@ -26,29 +26,38 @@ export const StyledNavContainer = styled.div`
 `
 
 export const StyledHeaderInfosContainer = styled.div`
+@media screen and (min-width: 1440px){
+    width: 50%;
     
+}    
 `
 
 export const StyledHeaderDesktopContainer = styled.div`
+@media screen and (min-width: 1440px){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     
+}
 `
+
 
 export const StyledTestemonialLinksContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
     align-items: center;
     margin-bottom: 10%;
-
-`
-
-export const StyledTestemonialLinksContainerBox = styled.div`
+    
+    `
+    
+    export const StyledTestemonialLinksContainerBox = styled.div`
     width: 50%;
     display: flex;
     align-items: center;
-`
-
-export const StyledTestemonialCard = styled.div`
+    `
+    
+    export const StyledTestemonialCard = styled.div`
     background-color: ${white};
     box-shadow: 0px 3px 10px 0px rgba(0,0,0,.15);
     border-radius: 5px;
@@ -58,38 +67,44 @@ export const StyledTestemonialCardInsideContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-`
-
-export const StyledTestemonialCardInsideContainerBox = styled.div`
+    `
+    
+    export const StyledTestemonialCardInsideContainerBox = styled.div`
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-left: 2.5%;
-`
-
-export const StyledTestemonialDesktopContainer = styled.div`
-   
-`
-
-export const StyledSignUpDesktop = styled.div`
+    `
+    
+    export const StyledTestemonialDesktopContainer = styled.div`
+    
+    `
+    
+    export const StyledSignUpDesktop = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-`
-
-export const StyledSignUpDesktopBox = styled.div`
+    `
+    
+    export const StyledSignUpDesktopBox = styled.div`
     display: flex;
     flex-direction: column;
-    align-items:center;
-    width: 100%;
+    align-items: center;
     
-`
+    `
+    
+    export const StyledHeaderDesktopBox = styled(StyledSignUpDesktopBox)`
+        width: 100%;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-between;
 
-export const StyledFooterDesktop = styled.div`
-
-`
-
-export const StyledfooterInsideInfoContainer = styled.div`
+    `
+    export const StyledFooterDesktop = styled.div`
+    
+    `
+    
+    export const StyledfooterInsideInfoContainer = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;

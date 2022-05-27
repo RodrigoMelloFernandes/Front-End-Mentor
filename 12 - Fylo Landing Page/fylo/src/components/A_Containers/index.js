@@ -1,7 +1,7 @@
 import {
     StyledMenuNavContainer,StyledHeaderInfosContainer,StyledHeaderDesktopContainer,StyledTestemonialCard,StyledTestemonialDesktopContainer, StyledSignUpDesktop,StyledFooterDesktop, StyledNavContainer,StyledTestemonialLinksContainer,StyledTestemonialLinksContainerBox,StyledTestemonialCardInsideContainer,StyledTestemonialCardInsideContainerBox,
     StyledSignUpDesktopBox,StyledfooterInsideInfoContainer,StyledfooterInsideLinksContainer,
-    StyledfooterSocialMediaContainer
+    StyledfooterSocialMediaContainer,StyledHeaderDesktopBox
 
 } from './styles'
 
@@ -72,6 +72,12 @@ function Container (props) {
         return <StyledSignUpDesktopBox>
             {props.children}
         </StyledSignUpDesktopBox>
+    }
+
+    else if (props.HeaderDesktopBox) {
+        return <StyledHeaderDesktopBox>
+            {props.children}
+        </StyledHeaderDesktopBox>
     }
 
     else if(props.footerDesktop) {
