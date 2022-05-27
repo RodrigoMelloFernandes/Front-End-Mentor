@@ -11,7 +11,8 @@ export const StyledtitleHeader = styled.h2`
         text-align: start;
         font-size: 1.8rem;
         line-height: 2.5rem;
-        width: 65%;
+        width: 85%;
+        margin-top: 15%;
     }
     
 `

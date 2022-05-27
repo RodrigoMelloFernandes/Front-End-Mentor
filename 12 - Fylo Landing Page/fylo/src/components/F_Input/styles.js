@@ -11,10 +11,8 @@ export const StyledInput = styled.input`
     margin-bottom: 2.5%;
     @media screen and (min-width: 1440px){
         width: 65%;
-        height: 3vh;
         padding: 2.5%;
         margin-bottom: 0%;
-
     }
     
 `

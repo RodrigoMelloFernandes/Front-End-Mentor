@@ -15,7 +15,7 @@ import testemonialImg from '../../images/illustration-2.svg'
 function TestemonialSection(props) {
   return (
     <TestemonialSectionContainer>
-      {/* <Img src={curveMobile} alt="curveMobile" curveMobile /> */}
+      <Img src={curveMobile} alt="curveMobile" curveMobile />
 
       <Container TestemonialDesktopContainer>
         <Img src={testemonialImg} alt="testemonialImg" testemonialImg />

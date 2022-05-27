@@ -14,7 +14,7 @@ export const StyledheaderImg = styled.img`
     width: 100%;
     margin-bottom: 10%;
     @media screen and (min-width: 1440px){
-        width: 40%;
+        width: 50%;
     }
 `
 

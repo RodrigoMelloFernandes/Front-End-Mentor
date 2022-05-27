@@ -9,9 +9,8 @@ export const StyledsubtitleHeader = styled.p`
     @media screen and (min-width: 1440px){
         margin-bottom: 2.5%;
         text-align: start;
-        font-size: 1.2rem;
+        width: 90%;
         line-height: 1.5rem;
-
     }
 `
 
