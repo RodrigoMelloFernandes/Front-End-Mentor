@@ -6,5 +6,8 @@ export const HeaderContainer = styled.header`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (min-width: 1440px){
+        padding: 4% 5%;
+    }
 `
 

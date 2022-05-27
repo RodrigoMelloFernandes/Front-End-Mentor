@@ -38,3 +38,11 @@ export const white = "hsl(0, 0%, 100%)";
 // font-family: 'Open Sans', sans-serif;
 // Weights: 400  
 
+/*
+@media screen and (min-width: 1440px){
+    
+}
+
+*/
+
+

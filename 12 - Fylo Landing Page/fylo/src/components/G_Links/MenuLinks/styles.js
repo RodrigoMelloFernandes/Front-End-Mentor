@@ -7,6 +7,9 @@ export const StyledMenuLinks = styled.a`
     font-size: .8rem;
     margin-left: 10%;
     font-family: 'Raleway', sans-serif;
-
+    @media screen and (min-width: 1440px){
+        font-size: 1.2rem;
+        margin-left: 15%;
+    }
     
 `

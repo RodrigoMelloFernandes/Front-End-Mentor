@@ -1,13 +1,19 @@
 import styled from "styled-components"
+import { white } from "../Z_Ui/Variables"
 
 export const StyledfyloLogo = styled.img`
     width: 25%;
+    @media screen and (min-width: 1440px){
+        width: 15%;
+    }
     
 `
 
 export const StyledfyloLogoFooter = styled(StyledfyloLogo)`
     width: 50%;
     margin-bottom: 10%;
+    filter: opacity(0.5) drop-shadow(0 0 0 ${white}); 
+    
 `
 
 export const StyledheaderImg = styled.img`

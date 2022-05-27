@@ -5,14 +5,24 @@ export const StyledContainer = styled.div`
 
 `
 
+
 export const StyledMenuNavContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 20%;
+    @media screen and (min-width: 1440px){
+        width: 100%;
+        margin-bottom: 5%;
+
+    }
 `
 
 export const StyledNavContainer = styled.div`
     width: 62%;
+    @media screen and (min-width: 1440px){
+        width: 30%;
+    }
+    
 `
 
 export const StyledHeaderInfosContainer = styled.div`
